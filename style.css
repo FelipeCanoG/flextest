@@ -1,0 +1,38 @@
+* {
+    border: 1px solid black;
+}
+
+.header {
+ background-color: #1F2937;
+ display: flex;
+ justify-content: center;
+    align-items: center;
+}
+
+.header .hlogo {
+    color: white;
+    flex: 5;
+    text-align: center;
+} 
+
+.headerlinks {
+    flex: 1;
+    text-align: center;
+    color: white;
+    
+}
+
+.sectorone {
+    display: flex;
+  margin: auto;
+  width: 80%;
+  height: 500px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sectoronecenter {
+   /* flex: 1;
+   // margin-left: 10px; */
+    width: 35%;
+}
